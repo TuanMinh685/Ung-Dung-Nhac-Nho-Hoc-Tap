@@ -1,0 +1,44 @@
+name: bai1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.5
+  intl: ^0.20.2
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  fl_chart: ^0.70.2
+  image_picker: ^1.1.2
+  webview_flutter: ^4.10.0
+  webview_flutter_web: ^0.2.3
+  url_launcher: ^6.3.1
+  google_mlkit_text_recognition: ^0.13.0
+  local_auth: ^2.3.0
+  google_generative_ai: ^0.4.6
+  firebase_core: ^3.10.1
+  cloud_firestore: ^5.6.2
+  firebase_auth: ^5.5.1
+  qr_flutter: ^4.1.0
+  google_fonts: ^6.2.1
+  home_widget: ^0.7.0
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^7.1.1
+  permission_handler: ^11.3.1
+  flutter_tts: ^4.2.4
+  flutter_markdown: ^0.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
